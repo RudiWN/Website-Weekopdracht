@@ -1,0 +1,310 @@
+* {   
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #616161;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    
+}
+
+.nav-list-item {
+    display: inline-block;
+    padding: 16px 32px;
+}
+
+.nav-list-item a {
+    text-decoration: none;
+    color: #616161;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.nav-list-item a:hover {
+    color: #f9dd7f;
+}
+
+.nav-inner-list {
+    display: none;
+}
+
+.nav-inner-list-item {
+    
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.header-section {
+    background-color: #f9dd7f;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0 40px;
+    margin: auto;
+}
+
+.section-header-wrapper {
+    max-width: 720px;
+}
+
+.header-outer-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 80vh;
+}
+
+.header-text-wrapper {
+    flex: 1 0 auto;
+    width: 48%;
+}
+
+.header-text-wrapper-html{
+    width: 70%;
+}
+
+.header-text-wrapper-html .paragraph-large {
+    font-size: 24px;
+}
+
+.header-img-wrapper {
+    flex: 1 1 auto;
+    padding-left: 100px;
+    max-width: 540px;
+    max-height: 100%;
+}
+
+.header-img-wrapper img {
+    max-width: 100%;
+}
+
+.button-wrapper {
+    margin-top: 60px;
+}
+
+.flex-article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.article-text-wrapper {
+    flex-grow: 1;
+    flex-shrink: 2;
+    min-width: 600px;
+    padding-right: 60px;
+}
+
+.article-img-wrapper {
+    width: 320px;
+    flex-shrink: 0;
+}
+
+.article-img {
+
+}
+
+.course-section{
+    background-image: linear-gradient(to bottom right, #f9dd7f 10%, white 60%);
+}
+
+.quiz-wrapper{
+    display: flex;
+}
+
+.html-quiz, .css-quiz{
+    background-image:linear-gradient(to bottom right, #f9dd7f 10%, white 70%);
+    padding: 10px;
+    margin-top: 40px;
+    margin-right: 40px;
+    box-shadow: 1px 1px 3px #212121;
+    width: 300px;
+    border-radius: 4px;
+}
+
+.css-quiz{
+    background-image:linear-gradient(to top left, #f9dd7f 10%, white 70%);
+}
+/*styling for text*/
+h1,h2,h3,button {
+    font-weight: 600;
+    color: #212121;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 72px;
+    margin-bottom: 60px;
+}
+
+/* .header-one {
+    border-top-width: 20px;
+    border-right-width: 40px;
+    border-left-width: 30px;
+    border-bottom-width: 10px;
+
+    border-top-style: ridge;
+    border-right-style: dashed;
+    border-bottom-style: solid;
+    border-left-style: double;
+
+    border-color: mediumvioletred;
+    padding: 60px 33px 73px 43px;
+} */
+
+
+h2 {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 28px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.paragraph-large {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.html-section {
+
+}
+
+.html-wrapper {
+    display: flex;
+}
+
+.html-p {
+    padding-right: 20px ;
+    margin-right: 50px;
+}
+
+table {
+    width: 65%;
+}
+
+th{
+    color: white;
+    text-align: left;
+    background-color: #212121;
+    padding: 10px;
+}
+
+.row-even{
+    background-color: white;
+}
+
+.row-uneven{
+    background-color: #f9dd7f;
+}
+
+td{
+    padding: 10px;
+}
+
+button {
+    padding: 12px 30px;
+    margin-right: 20px;
+    border: 0px;
+    border-style: none;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #212121;
+    color: white;
+    box-shadow: 1px 1px 3px #212121;
+}
+
+
+button:hover {
+    background-color: #f9dd7f;
+    color: #212121;
+    transform: translateY(-2px);
+    transition-duration: 0.3s;
+}
+
+.button-2:hover{
+    background-color: white;
+    color: #212121;   
+}
+
+footer {
+    background-color: #212121;
+    color: white;
+    padding: 30px;
+}
+
+.logo-first {
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9dd7f;
+}
+
+.logo-second {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 769px){
+    h1 {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 30px;
+    }
+
+    .paragraph-large {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+
+    button{
+        padding: 6px 15px;
+        font-size: 15px;
+    }
+
+    .button-wrapper {
+        margin-top: 30px;
+    }
+}
